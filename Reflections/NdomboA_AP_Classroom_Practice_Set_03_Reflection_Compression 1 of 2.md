@@ -1,1 +1,3 @@
+I got none of the questions wrong, so i will be explaining why someone else may make a mistake.
 
+A common error someone make make whilst completing this practice test is the difference between Lossy and Lossless compression.This can easily trip someone up,so A strategy I recommend using to remember the differences bewteen the two is remembering that the "less" in Lossless means that there isn't anything being lost. This can be easily remembered because there are other words that use this logic very commonly, and it makes it clear that Lossy and Lossless have two clear and seperate definitions.
