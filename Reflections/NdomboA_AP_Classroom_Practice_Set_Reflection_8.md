@@ -1,4 +1,5 @@
 Checkpoint 1 - Introduction to the Internet
+
 Questions I got wrong: Q5, Q8
 
 ## Q5: The Internet and the WWW
