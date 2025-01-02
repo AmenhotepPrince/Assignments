@@ -1,3 +1,4 @@
+from cmu_graphics import *
 Rect(0,0,1000,1000,fill='skyBlue')
 C=Circle(200,75,50, fill=gradient('yellow', 'orange'), border='black', borderWidth=3)
 Ov1=Oval(175,65,13,32)
@@ -22,3 +23,25 @@ Line(208.2,110,208.2,95)
 Line(225,110,225,95)
 '''
 Rect(200,300,50,100,fill='gold')
+def onMouseDrag(mouseX,mouseY):
+    C.centerX = mouseX
+    C.centerY = mouseY
+    C.radius = 50
+    Ov1.centerX = mouseX-25
+    Ov1.centerY = mouseY-10
+    Ov2.centerX = mouseX+25
+    Ov2.centerY = mouseY-10
+    Li1.x1 = mouseX
+    Li1.y1 = mouseY-13
+    Li1.x2 = mouseX+7
+    Li1.y2 = mouseY
+    Li2.x1  = mouseX + 7
+    Li2.y1 = mouseY
+    Li2.x2 = mouseX
+    Li2.y2 = mouseY + 2
+    Li3.x1 = mouseX + 25
+    Li3.y1 = mouseY + 20
+    Li3.x2 = mouseX - 25
+    Li3.y2 = mouseY + 20
+
+cmu_graphics.run()
