@@ -1,0 +1,21 @@
+from cmu_graphics import *
+
+C = Circle(200,200,75,fill='Blue')
+line1 = Line(200,150,200,250, fill='blue', lineWidth = 10)
+line2 = Line(150,200,250,200, fill='blue', lineWidth = 10)
+
+Present = Group(C,
+      line1,
+      line2
+      )
+
+def onMousePress(mouseX, mouseY):
+    Present.centerX += 50
+    Present.centerY += 50
+    Present.fill = 'red'
+
+def onMouseRelease(mouseX, mouseY):
+    Present.centerX -= 50
+    Present.centerY -= 50
+    Present.fill = 'blue'
+cmu_graphics.run()
